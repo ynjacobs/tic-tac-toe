@@ -1,0 +1,21 @@
+.board{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 600px;
+    width: 600px;
+    background-color:grey;
+    margin: 0 auto;
+    padding: 15px 0px 0px 15px;
+}
+
+.box {
+    height: 180px;
+    width: 180px;
+    background-color: lightgray;
+border: 2px solid black;
+font-size: 5em;
+text-align: center;
+vertical-align: middle;
+
+}
